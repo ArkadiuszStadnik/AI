@@ -20,7 +20,6 @@ def chatbot(pytanie):
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
-        api_key=""
     )
 
     return odpowiedz["choices"][0]["message"]["content"]
